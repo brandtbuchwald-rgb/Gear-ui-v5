@@ -1,0 +1,49 @@
+body {
+  background: #111;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #222;
+  border-bottom: 2px solid purple;
+}
+.gear-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+  border: 2px solid purple;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.gear-slot {
+  position: absolute;
+  text-align: center;
+}
+.gear-slot img {
+  width: 64px;
+  height: 64px;
+  image-rendering: pixelated;
+}
+.gear-slot select {
+  margin-top: 5px;
+  background: #222;
+  color: white;
+  border: 1px solid purple;
+}
+
+/* Circle positions */
+.necklace { top: 20px; left: 50%; transform: translateX(-50%); }
+.helm { top: 100px; left: 80%; }
+.chest { top: 220px; left: 85%; }
+.gloves { bottom: 100px; left: 80%; }
+.belt { bottom: 20px; left: 50%; transform: translateX(-50%); }
+.boots { bottom: 100px; left: 20%; }
+.weapon { top: 220px; left: 15%; }
+.shield { top: 100px; left: 20%; }
+.character { top: 180px; left: 50%; transform: translateX(-50%); }
