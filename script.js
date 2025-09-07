@@ -43,3 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
     select.addEventListener("change", updateTotals);
   });
 });
+/* === Gear Slot Positions (like in-game UI) === */
+.necklace { top: 40px; left: 200px; }   /* top center */
+.helm     { top: 100px; left: 340px; }  /* top right */
+.chest    { top: 200px; left: 360px; }  /* mid right */
+.gloves   { top: 300px; left: 320px; }  /* bottom right */
+.belt     { top: 320px; left: 120px; }  /* bottom left */
+.boots    { top: 200px; left: 40px; }   /* mid left */
+.ring     { top: 100px; left: 60px; }   /* top left */
+.weapon   { top: 220px; left: 140px; }  /* lower left-mid */
+.offhand  { top: 220px; left: 260px; }  /* lower right-mid */
