@@ -47,3 +47,18 @@ body {
 .weapon { top: 220px; left: 15%; }
 .shield { top: 100px; left: 20%; }
 .character { top: 180px; left: 50%; transform: translateX(-50%); }
+
+/* Character in the middle */
+.character {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.character img {
+  width: 96px;       /* adjust size */
+  height: auto;
+  image-rendering: pixelated; /* keeps pixel style crisp */
+}
